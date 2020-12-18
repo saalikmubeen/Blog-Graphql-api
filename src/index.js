@@ -14,4 +14,4 @@ const server = new GraphQLServer({typeDefs: './src/schema.graphql',
                 fragmentReplacements: fragmentReplacements
             });
 
-server.start(() => console.log(`STARTING SERVER....!`))
+server.start(() => console.log(`STARTING SERVER....!`)) // starts the server at port 4000
